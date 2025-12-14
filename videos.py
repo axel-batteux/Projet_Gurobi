@@ -5,7 +5,6 @@ from gurobipy import GRB
 def solve(dataset_path):
     """
     Lit le fichier de données et résout le problème d'optimisation
-    'Streaming Videos' (Hash Code 2017) avec Gurobi.
     """
     print(f"Lecture du dataset : {dataset_path}...")
     
